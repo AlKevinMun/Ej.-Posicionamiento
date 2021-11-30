@@ -32,7 +32,7 @@
   margin: 0;
   border: thin solid blue;
   background-color: white;
-  height: 25em;
+  height: 22em;
   width: 25em;
   border-radius: 1em;
   z-index: -3;
@@ -41,7 +41,7 @@
 .ojos{
   position: absolute;
   left: 2.5em;
-  top: 10em;
+  top: 7em;
   margin: 0;
   border: thin solid white;
   background-color: white;
@@ -108,7 +108,7 @@
 .boca{
   position: absolute;
   left: 10em;
-  top: 15em;
+  top: 12em;
   margin: 0;
   background-color: black;
   height: 5em;
@@ -141,7 +141,7 @@
 .cuerpo{
   position: relative;
   left: 20em;
-  top: 27em;
+  top: 24em;
   margin: 0;
   background-color: white;
   border: thin solid blue;
@@ -173,3 +173,92 @@
   z-index: -3;
   border-radius:5em;
 }
+.brazos{
+  position: absolute;
+  left: 7em;
+  top: 25em;
+  margin: 0;
+  height: 8em;
+  width: 41em;
+  z-index: -5;
+}
+.brazo_iz{
+  position: absolute;
+  right: 46em;
+  bottom: 26em;
+  margin: 0;
+  background-color: white;
+  border: thin solid blue;
+  height: 3em;
+  width: 13em;
+  border-radius: 1em;
+  transform: rotate(350deg);
+  z-index: -5;
+}
+.brazo_de{
+  position: absolute;
+  left: 6em;
+  bottom: 26em;
+  margin: 0;
+  background-color: white;
+  border: thin solid blue;
+  height: 3em;
+  width: 13em;
+  border-radius: 1em;
+  transform: rotate(10deg);
+  z-index: -5;
+}
+.parche_iz{
+  position: absolute;
+  right: 45em;
+  bottom: 26em;
+  margin: 0;
+  background-color: white;
+  height: 4em;
+  width: 3em;
+  z-index: -4;
+}
+.parche_de{
+  position: absolute;
+  left: 5em;
+  bottom: 26em;
+  margin: 0;
+  background-color: white;
+  height: 4em;
+  width: 2.87em;
+  z-index: -4;
+}
+.piernas{
+  position: absolute;
+  right: -5em;
+  top: 12.8em;
+  margin: 0;
+  background-color: #ad772d;
+  height: 4em;
+  width: 25em;
+  z-index: -5;
+}
+  .pierna_iz{
+    position: absolute;
+    left: 5em;
+    top: -1em;
+    margin: 0;
+    background-color: white;
+    border-radius: 1em;
+    border: thin solid blue;
+    height: 8em;
+    width: 3.5em;
+    z-index: -3;
+  }
+  .pierna_de{
+    position: absolute;
+    right: 5em;
+    top: -1em;
+    margin: 0;
+    background-color: white;
+    border-radius: 1em;
+    border: thin solid blue;
+    height: 8em;
+    width: 3.5em;
+    z-index: -3;
+  }
