@@ -24,7 +24,16 @@
   width: 55em;
   z-index: -4;
 }
-
+.Caja_Principal_2{
+  position: relative;
+  left: ;
+  top: 10;
+  margin: 0 auto;
+  border: thin solid green;
+  height: 55em;
+  width: 55em;
+  z-index: -4;
+}
 .cabeza {
   position: absolute;
   left: 15em;
@@ -175,17 +184,17 @@
 }
 .brazos{
   position: absolute;
-  left: 7em;
-  top: 25em;
+  left: 0em;
+  top: 5em;
   margin: 0;
-  height: 8em;
-  width: 41em;
+  height: 5em;
+  width: 25em;
   z-index: -5;
 }
 .brazo_iz{
   position: absolute;
-  right: 46em;
-  bottom: 26em;
+  right: 23em;
+  bottom: 2em;
   margin: 0;
   background-color: white;
   border: thin solid blue;
@@ -197,8 +206,8 @@
 }
 .brazo_de{
   position: absolute;
-  left: 6em;
-  bottom: 26em;
+  left: 13em;
+  bottom: 2em;
   margin: 0;
   background-color: white;
   border: thin solid blue;
@@ -210,18 +219,18 @@
 }
 .parche_iz{
   position: absolute;
-  right: 45em;
-  bottom: 26em;
+  right: 10.2em;
+  bottom: 2em;
   margin: 0;
   background-color: white;
   height: 4em;
-  width: 3em;
+  width: 2em;
   z-index: -4;
 }
 .parche_de{
   position: absolute;
-  left: 5em;
-  bottom: 26em;
+  left: 0em;
+  bottom: 2.2em;
   margin: 0;
   background-color: white;
   height: 4em;
@@ -240,8 +249,8 @@
 }
   .pierna_iz{
     position: absolute;
-    left: 5em;
-    top: -1em;
+    left: 5.3em;
+    top: -2em;
     margin: 0;
     background-color: white;
     border-radius: 1em;
@@ -252,8 +261,8 @@
   }
   .pierna_de{
     position: absolute;
-    right: 5em;
-    top: -1em;
+    right: 5.3em;
+    top: -2em;
     margin: 0;
     background-color: white;
     border-radius: 1em;
@@ -261,4 +270,26 @@
     height: 8em;
     width: 3.5em;
     z-index: -3;
+  }
+  .parche_de2{
+    position: absolute;
+    left: 5.25em;
+    bottom: 4.05em;
+    margin: 0;
+    background-color: white;
+    height: 2em;
+    width: 4.5em;
+    border-radius: 0.5em;
+    z-index: -2;
+  }
+  .parche_iz2{
+    position: absolute;
+    right: 5em;
+    bottom: 4.05em;
+    margin: 0;
+    background-color: white;
+    height: 2em;
+    width: 4.5em;
+    border-radius: 0.5em;
+    z-index: -2;
   }
