@@ -23,6 +23,15 @@
   height: 55em;
   width: 55em;
   z-index: -4;
+  animation: Desaparecer 5s linear 10s infinite alternate;
+}
+@keyframes Desaparecer {
+  0% {opacity: 100%}
+  20% {opacity: 75%}
+  40% {opacity: 50%}
+  60% {opacity: 25%}
+  80% {opacity: 0%}
+  100% {opacity: 0%}
 }
 .Caja_Principal_2{
   position: relative;
